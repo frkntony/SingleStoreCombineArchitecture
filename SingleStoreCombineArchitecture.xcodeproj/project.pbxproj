@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAC66B3423C0016C00645226 /* CombineFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = EAC66B3323C0016C00645226 /* CombineFeedback */; };
+		EAC66B3623C0016C00645226 /* CombineFeedbackUI in Frameworks */ = {isa = PBXBuildFile; productRef = EAC66B3523C0016C00645226 /* CombineFeedbackUI */; };
+		EAC66B3B23C004B000645226 /* Feedback.actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC66B3A23C004B000645226 /* Feedback.actions.swift */; };
+		EAC66B3D23C004C300645226 /* Feedback.reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC66B3C23C004C300645226 /* Feedback.reducer.swift */; };
+		EAC66B4023C00B7600645226 /* SecondFeedback.view.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC66B3F23C00B7600645226 /* SecondFeedback.view.swift */; };
+		EAC66B4223C00BC700645226 /* SecondFeedback.actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC66B4123C00BC700645226 /* SecondFeedback.actions.swift */; };
+		EAC66B4423C00BE000645226 /* SecondFeedback.reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC66B4323C00BE000645226 /* SecondFeedback.reducer.swift */; };
 		EAC8EAFC23BFFA7400D72520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EAFB23BFFA7400D72520 /* AppDelegate.swift */; };
 		EAC8EAFE23BFFA7400D72520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EAFD23BFFA7400D72520 /* SceneDelegate.swift */; };
-		EAC8EB0023BFFA7400D72520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EAFF23BFFA7400D72520 /* ContentView.swift */; };
 		EAC8EB0223BFFA7700D72520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC8EB0123BFFA7700D72520 /* Assets.xcassets */; };
 		EAC8EB0523BFFA7700D72520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC8EB0423BFFA7700D72520 /* Preview Assets.xcassets */; };
 		EAC8EB0823BFFA7700D72520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC8EB0623BFFA7700D72520 /* LaunchScreen.storyboard */; };
+		EAC8EB1723BFFB0800D72520 /* Feedback.view.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EB1623BFFB0800D72520 /* Feedback.view.swift */; };
+		EAC8EB1B23BFFB5800D72520 /* GlobalStore.store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EB1A23BFFB5800D72520 /* GlobalStore.store.swift */; };
+		EAC8EB1D23BFFB7000D72520 /* MainState.state.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8EB1C23BFFB7000D72520 /* MainState.state.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAC66B3A23C004B000645226 /* Feedback.actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.actions.swift; sourceTree = "<group>"; };
+		EAC66B3C23C004C300645226 /* Feedback.reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.reducer.swift; sourceTree = "<group>"; };
+		EAC66B3F23C00B7600645226 /* SecondFeedback.view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedback.view.swift; sourceTree = "<group>"; };
+		EAC66B4123C00BC700645226 /* SecondFeedback.actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedback.actions.swift; sourceTree = "<group>"; };
+		EAC66B4323C00BE000645226 /* SecondFeedback.reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedback.reducer.swift; sourceTree = "<group>"; };
 		EAC8EAF823BFFA7400D72520 /* SingleStoreCombineArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleStoreCombineArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC8EAFB23BFFA7400D72520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC8EAFD23BFFA7400D72520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAC8EAFF23BFFA7400D72520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAC8EB0123BFFA7700D72520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC8EB0423BFFA7700D72520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAC8EB0723BFFA7700D72520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAC8EB0923BFFA7700D72520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC8EB1623BFFB0800D72520 /* Feedback.view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.view.swift; sourceTree = "<group>"; };
+		EAC8EB1A23BFFB5800D72520 /* GlobalStore.store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStore.store.swift; sourceTree = "<group>"; };
+		EAC8EB1C23BFFB7000D72520 /* MainState.state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.state.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +47,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC66B3423C0016C00645226 /* CombineFeedback in Frameworks */,
+				EAC66B3623C0016C00645226 /* CombineFeedbackUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EAC66B3723C0042800645226 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				EAC66B3A23C004B000645226 /* Feedback.actions.swift */,
+				EAC66B4123C00BC700645226 /* SecondFeedback.actions.swift */,
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+		EAC66B3823C0043100645226 /* reducers */ = {
+			isa = PBXGroup;
+			children = (
+				EAC66B3C23C004C300645226 /* Feedback.reducer.swift */,
+				EAC66B4323C00BE000645226 /* SecondFeedback.reducer.swift */,
+			);
+			path = reducers;
+			sourceTree = "<group>";
+		};
+		EAC66B3923C0043700645226 /* effects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		EAC66B3E23C00B5700645226 /* TestContainerReplica */ = {
+			isa = PBXGroup;
+			children = (
+				EAC66B3F23C00B7600645226 /* SecondFeedback.view.swift */,
+			);
+			path = TestContainerReplica;
+			sourceTree = "<group>";
+		};
 		EAC8EAEF23BFFA7400D72520 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +107,10 @@
 		EAC8EAFA23BFFA7400D72520 /* SingleStoreCombineArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				EAC8EB1823BFFB3900D72520 /* _store */,
+				EAC8EB1423BFFAE800D72520 /* containers */,
 				EAC8EAFB23BFFA7400D72520 /* AppDelegate.swift */,
 				EAC8EAFD23BFFA7400D72520 /* SceneDelegate.swift */,
-				EAC8EAFF23BFFA7400D72520 /* ContentView.swift */,
 				EAC8EB0123BFFA7700D72520 /* Assets.xcassets */,
 				EAC8EB0623BFFA7700D72520 /* LaunchScreen.storyboard */,
 				EAC8EB0923BFFA7700D72520 /* Info.plist */,
@@ -73,6 +125,35 @@
 				EAC8EB0423BFFA7700D72520 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAC8EB1423BFFAE800D72520 /* containers */ = {
+			isa = PBXGroup;
+			children = (
+				EAC66B3E23C00B5700645226 /* TestContainerReplica */,
+				EAC8EB1523BFFAF600D72520 /* Feedback */,
+			);
+			path = containers;
+			sourceTree = "<group>";
+		};
+		EAC8EB1523BFFAF600D72520 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				EAC8EB1623BFFB0800D72520 /* Feedback.view.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		EAC8EB1823BFFB3900D72520 /* _store */ = {
+			isa = PBXGroup;
+			children = (
+				EAC66B3923C0043700645226 /* effects */,
+				EAC66B3823C0043100645226 /* reducers */,
+				EAC66B3723C0042800645226 /* actions */,
+				EAC8EB1A23BFFB5800D72520 /* GlobalStore.store.swift */,
+				EAC8EB1C23BFFB7000D72520 /* MainState.state.swift */,
+			);
+			path = _store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +172,10 @@
 			dependencies = (
 			);
 			name = SingleStoreCombineArchitecture;
+			packageProductDependencies = (
+				EAC66B3323C0016C00645226 /* CombineFeedback */,
+				EAC66B3523C0016C00645226 /* CombineFeedbackUI */,
+			);
 			productName = SingleStoreCombineArchitecture;
 			productReference = EAC8EAF823BFFA7400D72520 /* SingleStoreCombineArchitecture.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +204,9 @@
 				Base,
 			);
 			mainGroup = EAC8EAEF23BFFA7400D72520;
+			packageReferences = (
+				EAC66B3223C0016C00645226 /* XCRemoteSwiftPackageReference "CombineFeedback" */,
+			);
 			productRefGroup = EAC8EAF923BFFA7400D72520 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +234,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC66B4223C00BC700645226 /* SecondFeedback.actions.swift in Sources */,
+				EAC66B4023C00B7600645226 /* SecondFeedback.view.swift in Sources */,
+				EAC8EB1B23BFFB5800D72520 /* GlobalStore.store.swift in Sources */,
+				EAC8EB1723BFFB0800D72520 /* Feedback.view.swift in Sources */,
 				EAC8EAFC23BFFA7400D72520 /* AppDelegate.swift in Sources */,
 				EAC8EAFE23BFFA7400D72520 /* SceneDelegate.swift in Sources */,
-				EAC8EB0023BFFA7400D72520 /* ContentView.swift in Sources */,
+				EAC8EB1D23BFFB7000D72520 /* MainState.state.swift in Sources */,
+				EAC66B3D23C004C300645226 /* Feedback.reducer.swift in Sources */,
+				EAC66B4423C00BE000645226 /* SecondFeedback.reducer.swift in Sources */,
+				EAC66B3B23C004B000645226 /* Feedback.actions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +437,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAC66B3223C0016C00645226 /* XCRemoteSwiftPackageReference "CombineFeedback" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sergdort/CombineFeedback";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAC66B3323C0016C00645226 /* CombineFeedback */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAC66B3223C0016C00645226 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
+			productName = CombineFeedback;
+		};
+		EAC66B3523C0016C00645226 /* CombineFeedbackUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAC66B3223C0016C00645226 /* XCRemoteSwiftPackageReference "CombineFeedback" */;
+			productName = CombineFeedbackUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAC8EAF023BFFA7400D72520 /* Project object */;
 }
